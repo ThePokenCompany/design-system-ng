@@ -9,7 +9,9 @@
 /coverage
 
 # production
+/lib
 /build
+/storybook-static
 
 # misc
 .DS_Store
