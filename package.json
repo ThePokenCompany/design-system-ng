@@ -1,5 +1,5 @@
 {
-  "name": "@thepokencompany/ui-ng",
+  "name": "@thepokencompany/design-system",
   "version": "0.2.7",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
