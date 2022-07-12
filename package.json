@@ -4,6 +4,7 @@
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
+  "repository": "https://github.com/ThePokenCompany/design-system-ng",
   "files": [
     "lib",
     "README.md"
