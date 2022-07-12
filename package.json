@@ -1,7 +1,6 @@
 {
   "name": "design-system-ng",
   "version": "0.2.3",
-  "private": true,
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
@@ -10,9 +9,17 @@
     "config.js",
     "README.md"
   ],
+  "author": {
+    "name": "thePokenCompany",
+    "email": "edgarp@thepokencompany.com"
+  },
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "@radix-ui/colors": "^0.1.8",
@@ -28,6 +35,7 @@
     "start:storybook": "start-storybook -p 4000",
     "build": "run-s build:*",
     "build:clean": "rimraf storybook-static lib",
+    "prepublishOnly": "yarn build",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs",
     "build:storybook": "build-storybook",
