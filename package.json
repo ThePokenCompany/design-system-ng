@@ -1,5 +1,5 @@
 {
-  "name": "design-system",
+  "name": "design-system-ng",
   "version": "0.2.0",
   "private": true,
   "main": "./lib/cjs/index.js",
