@@ -1,6 +1,6 @@
 {
-  "name": "@thepokencompany/ui-ng",
-  "version": "0.2.13",
+  "name": "@thepokencompany/design-system",
+  "version": "0.0.0",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
