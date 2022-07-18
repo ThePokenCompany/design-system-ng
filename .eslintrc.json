@@ -1,6 +1,37 @@
 {
-  "extends": "react-app",
+  "root": true,
+  "parser": "@typescript-eslint/parser", 
+  "parserOptions": {
+  "ecmaVersion": 2020, 
+  "sourceType": "module" 
+  },
+  "settings": {
+  "react": {
+    "version": "detect"
+    }
+  },
+  "env": {
+    "jest": true,
+    "browser": true,
+    "amd": true,
+    "node": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended" 
+  ],
   "rules": {
+    "no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+    "no-empty-function": ["off"],
+    "max-len": ["error", {"code": 120, "ignoreRegExpLiterals": true, "ignoreUrls": true, "ignoreStrings": true, "ignoreComments": true}],
+    "@typescript-eslint/ban-types": ["off"],
+    "@typescript-eslint/no-empty-function": ["off"],
+    "@typescript-eslint/no-explicit-any": "off",
+    "prettier/prettier": ["error", {}, { "usePrettierrc": true }],
+    "react/react-in-jsx-scope": ["off"],
+    "react/prop-types": ["off"],
+    "react/jsx-max-props-per-line": [1, { "when": "multiline" }],
     "import/no-anonymous-default-export": "off"
   }
 }
