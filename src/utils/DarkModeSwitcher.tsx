@@ -1,4 +1,4 @@
-import { styled, darkTheme } from '../../stitches.config'
+import { styled, darkTheme } from '../stitches.config'
 
 export const DarkModeSwitcher = styled('div', {
   color: '$primary',

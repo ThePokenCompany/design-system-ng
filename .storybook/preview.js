@@ -1,5 +1,5 @@
 import React from 'react'
-import {styled, darkTheme} from '../stitches.config'
+import {styled, darkTheme} from '../src/stitches.config'
 
 const Container = styled('div', {
   backgroundColor: '$bg-primary',
