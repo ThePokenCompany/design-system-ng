@@ -1,7 +1,6 @@
 import React from 'react'
 import { styled } from '../../stitches.config'
 import { STORIES_GROUPS } from '../../utils/storiesGroups'
-import { Adduser } from './icons/Adduser'
 import * as icons from './icons/index'
 
 export default {

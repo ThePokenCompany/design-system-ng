@@ -77,7 +77,7 @@ type TextAreaComponent = <C extends React.ElementType = defaultComponent>(
 
 const TextArea: TextAreaComponent = React.forwardRef(
   <C extends React.ElementType = defaultComponent>(
-    { value, onChange, disabled, helperText, error, className, placeholder, label, adornment }: TextAreaProps<C>,
+    { value, onChange, disabled, helperText, error, className, placeholder, label }: TextAreaProps<C>,
     ref?: PolymorphicRef<C>
   ) => {
     const { className: inputClassname } = inputClasses({ error })

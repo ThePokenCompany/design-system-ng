@@ -1,4 +1,3 @@
-import { Story } from '@storybook/react/types-6-0'
 import { CheckIcon, ChevronDownIcon, ChevronUpIcon } from '@radix-ui/react-icons'
 import React from 'react'
 import { STORIES_GROUPS } from '../../utils/storiesGroups'
@@ -33,21 +32,6 @@ export default {
 // Demo.args = {}
 
 export const Examples = () => {
-  // const [value, setValue] = React.useState('france')
-  // return (
-  //   <div>
-  //     <Select
-  //       defaultValue='france'
-  //       value={value}
-  //       options={[
-  //         { value: 'fr', label: '🇫🇷' },
-  //         { value: 'en', label: '🇬🇧' }
-  //       ]}
-  //       onChange={(value: string) => setValue(value)}
-  //     />
-  //   </div>
-  // )
-
   return (
     <div>
       <Select defaultValue='blueberry'>
