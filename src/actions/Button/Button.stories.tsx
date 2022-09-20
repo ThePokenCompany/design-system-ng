@@ -6,21 +6,30 @@ import { Button, ButtonProps } from './Button'
 export default {
   title: `${STORIES_GROUPS.ACTIONS}/Button`,
   component: Button,
+  argTypes: {
+    variant: {
+      options: ['primary', 'outlined', 'contained'],
+      control: { type: 'select' }
+    },
+    size: {
+      options: ['small', 'medium'],
+      control: { type: 'select' }
+    }
+  }
 }
 
-const Template: Story<ButtonProps<React.ElementType<'button'>>> = <
-  C extends React.ElementType = 'button'
->(
-  args: ButtonProps<C>,
+const Template: Story<ButtonProps<React.ElementType<'button'>>> = <C extends React.ElementType = 'button'>(
+  args: ButtonProps<C>
 ) => <Button {...args} />
 
 export const Demo = Template.bind({})
 
 Demo.args = {
   children: 'Button',
-  outlined: false,
-  disabled: false,
+  variant: 'primary',
   component: 'button',
+  size: 'small',
+  disabled: false
 }
 
 export const Examples = () => {
