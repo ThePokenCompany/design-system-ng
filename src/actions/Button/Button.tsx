@@ -19,7 +19,7 @@ const buttonClass = css({
   boxSizing: 'border-box',
   fontFamily: '$regular',
   borderRadius: '$1',
-  width: '32px',
+  minWidth: '32px',
   height: '32px',
   fontSize: '$text-m',
   cursor: 'pointer',
@@ -27,11 +27,9 @@ const buttonClass = css({
   variants: {
     size: {
       small: {
-        width: '77px',
         height: '32px'
       },
       medium: {
-        width: '83px',
         height: '40px'
       }
     },
