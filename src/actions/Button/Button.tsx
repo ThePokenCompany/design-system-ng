@@ -21,6 +21,7 @@ const buttonClass = css({
   borderRadius: '$1',
   minWidth: '32px',
   height: '32px',
+  padding: '8px',
   fontSize: '$text-m',
   cursor: 'pointer',
   boxShadow: '0px 1px 2px rgba(0, 0, 0, 0.12)',
