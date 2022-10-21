@@ -17,6 +17,7 @@ interface Props {
 
 const inputClasses = css({
   width: '100%',
+  height: '32px',
   display: 'inline-flex',
   backgroundColor: '$bg-primary',
   border: '1px solid #262626',
