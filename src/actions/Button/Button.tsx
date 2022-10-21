@@ -6,7 +6,7 @@ import { PolymorphicComponentPropsWithRef, PolymorphicRef } from '../../types/gl
 type defaultComponent = 'button'
 
 const disabled = {
-  backgroundColor: '$bg-stroke',
+  backgroundColor: '$bg-primary',
   color: '$text-stroke',
   cursor: 'not-allowed',
   border: 'none'
