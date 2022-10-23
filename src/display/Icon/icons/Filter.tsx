@@ -7,7 +7,7 @@ interface Props {
   color?: string
 }
 
-export const Flag = ({ className, style, color = 'white' }: Props) => {
+export const Filter = ({ className, style, color = 'white' }: Props) => {
   return (
     <Icon className={className} style={style}>
       <svg width='100%' height='100%' viewBox='0 0 20 12' fill='none' xmlns='http://www.w3.org/2000/svg'>
