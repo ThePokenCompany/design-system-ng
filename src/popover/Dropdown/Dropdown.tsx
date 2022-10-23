@@ -101,7 +101,7 @@ const StyledLabel = styled(DropdownPrimitive.Label, {
 
 const StyledSeparator = styled(DropdownPrimitive.Separator, {
   height: 1,
-  backgroundColor: '$bg-stroke',
+  backgroundColor: '#353945',
   margin: 5
 })
 
