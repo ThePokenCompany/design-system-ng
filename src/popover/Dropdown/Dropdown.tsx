@@ -65,7 +65,7 @@ function Content({ children, ...props }: ContentProps) {
 
 const itemStyles = {
   all: 'unset',
-  fontSize: 13,
+  fontSize: '$text-m',
   lineHeight: 1,
   color: '$text-primary',
   borderRadius: 3,
@@ -74,7 +74,7 @@ const itemStyles = {
   height: 25,
   padding: '0 5px',
   position: 'relative',
-  paddingLeft: 25,
+  paddingLeft: 16,
   userSelect: 'none',
 
   '&[data-disabled]': {
@@ -101,7 +101,7 @@ const StyledLabel = styled(DropdownPrimitive.Label, {
 
 const StyledSeparator = styled(DropdownPrimitive.Separator, {
   height: 1,
-  backgroundColor: '$text-primary',
+  backgroundColor: '$bg-stroke',
   margin: 5
 })
 
