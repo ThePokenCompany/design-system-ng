@@ -1,6 +1,6 @@
 {
   "name": "@thepokencompany/design-system",
-  "version": "0.0.35",
+  "version": "0.0.36",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
@@ -19,7 +19,7 @@
   },
   "license": "MIT",
   "publishConfig": {
-    "access": "restricted",
+    "access": "public",
     "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
